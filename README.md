@@ -1,13 +1,13 @@
 # mano
 
-An assembler and simulator library for the Mano Machine RISC CPU, as described in "Computer System Architecture" by M. Morris Mano.
+An assembler and emulator for the Mano Machine RISC CPU, as described in "Computer System Architecture" by M. Morris Mano.
 
-See [github.com/husmus00/mano-rs](https://github.com/husmus00/mano-rs) for examples of CLI, TUI, and web-based Mano Machine simulators built using this library.
+See [github.com/husmus00/mano-rs](https://github.com/husmus00/mano-rs) for examples of CLI, TUI, and web-based applications built using this library.
 
 ## Features
 
 - **Assembler**: Compiles Mano assembly language to machine code
-- **CPU Simulator**: Executes assembled programs instruction by instruction
+- **CPU Emulator**: Executes assembled programs instruction by instruction
 - **State Inspection**: Access CPU registers and memory at any point
 - **Message System**: Collect informational, debug, and error messages during execution
 
@@ -22,7 +22,7 @@ mano = "0.1"
 
 ## Quick Start
 
-Building a basic simulator requires only three methods: `prime()`, `tick()`, and `get_state()`.
+Building a basic emulator requires only three methods: `prime()`, `tick()`, and `get_state()`.
 
 ```rust
 use mano::{Machine, Messages};

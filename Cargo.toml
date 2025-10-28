@@ -1,15 +1,15 @@
 [package]
 name = "mano"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Hussam Alhassan <husmus00@users.noreply.github.com>"]
-description = "An assembler and simulator library for the Mano Machine RISC CPU"
+description = "An assembler and emulator library for the Mano Machine RISC CPU"
 license = "MIT"
 repository = "https://github.com/husmus00/mano-lib"
 homepage = "https://github.com/husmus00/mano-lib"
 documentation = "https://docs.rs/mano"
 readme = "README.md"
-keywords = ["mano", "architecture", "assembler", "simulator", "education"]
+keywords = ["mano", "architecture", "assembler", "emulator", "education"]
 categories = ["simulation", "compilers"]
 rust-version = "1.70"
 
