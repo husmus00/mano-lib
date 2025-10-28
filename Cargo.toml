@@ -1,7 +1,17 @@
 [package]
-name = "mano-lib"
+name = "mano"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["Hussam Alhassan <husmus00@users.noreply.github.com>"]
+description = "An assembler and simulator library for the Mano Machine RISC CPU"
+license = "MIT"
+repository = "https://github.com/husmus00/mano-lib"
+homepage = "https://github.com/husmus00/mano-lib"
+documentation = "https://docs.rs/mano"
+readme = "README.md"
+keywords = ["mano", "computer-architecture", "assembler", "simulator", "education"]
+categories = ["simulation", "compilers"]
+rust-version = "1.70"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"], optional = true }
@@ -9,7 +19,3 @@ serde = { version = "1.0", features = ["derive"], optional = true }
 [features]
 default = []
 serde = ["dep:serde"]
-
-[lib]
-name = "mano_lib"
-path = "src/lib.rs"
