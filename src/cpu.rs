@@ -1,14 +1,8 @@
-use std::iter::Map;
 use crate::message::Messages;
 use crate::registers::Registers;
 
 pub struct CPU {
     pub reg: Registers,
-    pub memory: [u16; 4096],
-}
-
-pub struct CPUState {
-    pub registers: Map<String, u16>,
     pub memory: [u16; 4096],
 }
 
