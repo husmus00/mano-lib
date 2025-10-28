@@ -100,6 +100,10 @@ Contains CPU registers and memory snapshot:
 
 **Pseudo-Instructions**: `ORG`, `DEC`, `HEX`, `END`
 
+## Notes
+
+Input functionality is planned but not yet provided.
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
