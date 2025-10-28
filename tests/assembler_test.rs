@@ -1,4 +1,4 @@
-use mano_lib::{assembler, storage, message::Messages};
+use mano::{assembler, storage, message::Messages};
 
 /// Basic addition program: loads A, adds B, stores in C, then halts.
 /// Tests ORG, labels, MRI instructions, RRI instruction, DEC pseudo-instructions, and END.
