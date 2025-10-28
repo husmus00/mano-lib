@@ -9,7 +9,7 @@ repository = "https://github.com/husmus00/mano-lib"
 homepage = "https://github.com/husmus00/mano-lib"
 documentation = "https://docs.rs/mano"
 readme = "README.md"
-keywords = ["mano", "computer-architecture", "assembler", "simulator", "education"]
+keywords = ["mano", "architecture", "assembler", "simulator", "education"]
 categories = ["simulation", "compilers"]
 rust-version = "1.70"
 
