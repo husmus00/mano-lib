@@ -1,6 +1,6 @@
 # mano
 
-An assembler and emulator for the Mano Machine RISC CPU, as described in "Computer System Architecture" by M. Morris Mano.
+An assembler and emulator library for the Mano Machine RISC CPU, as described in "Computer System Architecture" by M. Morris Mano.
 
 See [github.com/husmus00/mano-rs](https://github.com/husmus00/mano-rs) for examples of CLI, TUI, and web-based applications built using this library.
 
